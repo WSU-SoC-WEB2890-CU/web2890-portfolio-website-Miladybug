@@ -1,10 +1,69 @@
-
-
-
+// Variables
+$primary: #0a92b9;
+$secondary: #717413;
+$dark: #1c1c1c;
+$light: #efefef;
 
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
+h1, h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 44px;
+}
 
+#e-logo {
+    max-width: 2.5rem;
+}
 
+main {
+    padding-top: 4rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
 
+.btn-primary {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+}
+
+#project-gallery {
+    margin: 1rem 5rem 0rem 5rem;
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    a {
+            text-decoration: none;
+            color: primary;
+            font-family: "Raleway", sans-serif;
+        }
+}
+
+#case-study {
+    padding: 0 6rem;
+
+    p {
+        padding: 3rem 0;
+    }
+}
+
+form {
+    width: 65%;
+}
+#form-control {
+    width: 18rem;
+}
+
+#bio {
+    width: 60%;
+}
+#casual-portrait {
+    width: 30%;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    padding: 1rem 4rem;
+}
