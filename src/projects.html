@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="TODO: Portfolio website ...">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/main.scss">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light shadow fixed-top d-flex justify-content-between">
+            <a class="navbar-brand mx-3" id="main-logo" href="/index.html">
+                <img id="e-logo" src="./images/e_logo.png" alt="E logo">
+                <span class="">Emma Johnson</span>
+            </a>
+            <div>
+                <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse pb-2" id="navbarNav">
+                    <ul class="navbar-nav text-nowrap">
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/case-study.html">Case Study</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/about-me.html">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-0">
+        <section id="projects" class="bg-secondary p-0 m-0">
+            <h2 class="text-center text-light bg-secondary p-5">PROJECTS</h2>
+            <div id="project-gallery" class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 text-center p-4">
+                <a href="./case-study.html">
+                    <div class="card p-4">
+                        <img src="./images/met_thumbnail.jpg" class="card-img-top" alt="blue hippo figurine">
+                        <h3 class="card-title p-2">Egyptology Search</h3>
+                        <h5 class="card-body p-0">Flask, MongoDB, React, Bootstrap</h5>
+                    </div>
+                </a>
+                <a href="./projects/sariah.html">
+                    <div class="card p-4">
+                        <img src="./images/no_image.jpg" class="card-img-top" alt="no image">
+                        <h3 class="card-title p-2">Copyediting Portfolio - Sariah Solomon</h3>
+                        <h5 class="card-body p-0">Bootstrap, SASS, HTML</h5>
+                    </div>
+                </a><a href="./projects/notes.html">
+                    <div class="card p-4">
+                        <img src="./images/notes_thumbnail.png" class="card-img-top" alt="no image">
+                        <h3 class="card-title p-2">Notes+</h3>
+                        <h5 class="card-body p-0">Flask, MySQL, CSS</h5>
+                    </div>
+                </a>
+                <a href="./projects/dnd.html">
+                    <div class="card p-4">
+                        <img src="./images/dnd_thumbnail.png" class="card-img-top" alt="no image">
+                        <h3 class="card-title p-2">Dungeons & Dragons Wiki</h3>
+                        <h5 class="card-body p-0">React, Bootstrap</h5>
+                    </div>
+                </a>
+                <a href="./projects/meals.html">
+                    <div class="card p-4">
+                        <img src="./images/no_image.jpg" class="card-img-top" alt="no image">
+                        <h3 class="card-title p-2">Meal Planner</h3>
+                        <h5 class="card-body p-0">Flask, MySQL, CSS</h5>
+                    </div>
+                </a>
+                <a href="./projects/web3400.html">
+                    <div class="card p-4">
+                        <img src="./images/no_image.jpg" class="card-img-top" alt="no image">
+                        <h3 class="card-title p-2">LAMP Project</h3>
+                        <h5 class="card-body p-0">PHP, MySQL, CSS</h5>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center bg-dark text-light d-flex justify-content-between">
+        <span>Emma Johnson | emmarj24601@gmail.com | (385) 236 - 9733</span>
+        <span>&copy;2025 All Rights Reserved</span>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9a2446f617.js" crossorigin="anonymous"></script>
+    <script type="module" src="./javascripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="TODO: Portfolio website ...">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/main.scss">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light shadow fixed-top d-flex justify-content-between">
+            <a class="navbar-brand mx-3" id="main-logo" href="/index.html">
+                <img id="e-logo" src="./images/e_logo.png" alt="E logo">
+                <span class="">Emma Johnson</span>
+            </a>
+            <div>
+                <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse pb-2" id="navbarNav">
+                    <ul class="navbar-nav text-nowrap">
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/case-study.html">Case Study</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item px-3 mt-2">
+                            <a class="nav-link" href="/about-me.html">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-0 bg-dark text-light">
+        <h1 class="text-center text-light bg-secondary p-5 w-100">CASE STUDY: EGYPTOLOGY SEARCH</h1>
+        <section class="bg-dark text-light" id="case-study">
+            <p>This is my senior capstone project, still in development. I'm not going to include a ton of information here on the
+            mockup because this project is still in progress. When it is complete, I will have a link to the finished website and a
+            link to read the accompanying 10-15 page support paper.</p>
+            <p>This is a project using the Met's free Collection API to create a website where visitors may search the collection with
+            advanced filters, and (hopefully, eventually) be able to create their own exhibits. I am creating the backend in Flask,
+            using techniques I am learning in my WEB 3200 Dynamic Languages for Web Development class. I am currently trying to
+            implement a frontend in React, using techniques I have already learned from my WEB 3350 Client-Side Frameworks class.</p>
+        </section>
+    </main>
+
+    <footer class="text-center bg-dark text-light d-flex justify-content-between">
+        <span>Emma Johnson | emmarj24601@gmail.com | (385) 236 - 9733</span>
+        <span>&copy;2025 All Rights Reserved</span>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9a2446f617.js" crossorigin="anonymous"></script>
+    <script type="module" src="./javascripts/main.js"></script>
+</body>
+
+</html>
